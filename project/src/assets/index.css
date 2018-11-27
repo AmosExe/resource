@@ -1,0 +1,92 @@
+.is-component {
+    overflow-y: hidden;
+}
+h1{
+    margin:0;
+    float:left;
+    font-size:32px;
+    font-weight: 400;
+}
+.headerWrapper {
+    height: 80px;
+}
+article, aside, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+.container{
+    width: 1729px;
+    padding: 0;
+    margin: 0 auto;
+    height:70px;
+}
+.homeTitle{
+    float:left;
+    padding-left: 50px;
+    width:auto;
+    height:80px;
+}
+.leftBody{
+    float:left;
+    width: 14%;
+    overflow-y:auto;
+    padding-left: 0;
+    height:1000px;
+}
+.contextBody{
+    width: 86%;
+    float: right;
+    height:1000px;
+    overflow-y:auto;
+}
+.topshow{
+    float: left;
+    padding-left: 650px;
+    width: 800px;
+}
+div #topul{
+    float: left;
+    list-style-type: none;
+    line-height: 50px;
+    width: 250px;
+    margin-top: 0;
+    text-align: top;
+}
+div #leftul{
+    float:right;
+    height: 100%;
+    line-height: 80px;
+    background: transparent;
+    width:250px;
+    list-style: none;
+    text-align: 5px;
+    text-align:left; 
+}
+::-webkit-scrollbar-track-piece{
+background-color:#fff;/*滚动条的背景颜色*/
+-webkit-border-radius:0;/*滚动条的圆角宽度*/
+}
+::-webkit-scrollbar{
+width:8px;/*滚动条的宽度*/
+height:8px;/*滚动条的高度*/
+}
+::-webkit-scrollbar-thumb:vertical{/*垂直滚动条的样式*/
+height:50px;
+background-color:#999;
+-webkit-border-radius:4px;
+outline:2px solid #fff;
+outline-offset:-2px;
+border:2px solid #fff;
+}
+::-webkit-scrollbar-thumb:hover{/*滚动条的hover样式*/
+height:50px;
+background-color: #b3b3b3;
+-webkit-border-radius:4px;
+}
+::-webkit-scrollbar-thumb:horizontal{/*水平滚动条的样式*/
+width:5px;
+background-color:#CCCCCC;
+-webkit-border-radius:6px;
+}
+div::-webkit-scrollbar {
+    width: 8px; /*滚动条的宽度*/
+}
