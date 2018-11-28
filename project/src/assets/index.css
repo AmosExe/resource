@@ -40,8 +40,8 @@ article, aside, footer, header, hgroup, main, nav, section {
 }
 .topshow{
     float: left;
-    padding-left: 650px;
-    width: 800px;
+    width: 1500px;
+    padding-left: 500px;
 }
 div #topul{
     float: left;
