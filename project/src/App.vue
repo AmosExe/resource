@@ -1,16 +1,18 @@
 <template>
-  <div id="app" >  
-
-    <router-view></router-view>
+  <div id="app" >
+    首页
   </div>
 </template>
 
 <script>
+import portal from '@/components/portal/portal'
 export default {
   name: 'App',
+  components:{
+    portal
+  }
 }
 </script>
-
 <style lang="css">
 
 #app {
