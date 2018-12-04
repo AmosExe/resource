@@ -51,11 +51,7 @@
 </template>
 <script type="text/javascript">
   export default{
-    methods:{
-      loginMethod:{
-        // this.$router.push({path:'/login'});
-      }
-    }
+    
   }
 </script>
 <style type="text/css" scoped>

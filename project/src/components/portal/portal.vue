@@ -21,12 +21,7 @@
 	    left,
 	    top,
 	    right
-	  },
-	   methods: {
-	      handleCommand(command) {
-	        this.$message('click on item ' + command);
-	      }
-	    }
+	  }
 	}
 </script>
 
