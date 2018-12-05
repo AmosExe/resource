@@ -22,7 +22,7 @@
                     </span>
                     <el-dropdown-menu slot="dropdown" style="width: 140px">
                       <el-dropdown-item command="a" style="width: 100px">
-                      	<router-link to='/testrouter'>
+                      	<router-link to="login">
                      	 <div>
                      	 	写文章
                      	 </div>

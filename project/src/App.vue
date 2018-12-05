@@ -1,6 +1,6 @@
 <template>
   <div id="app" >
-    <div><portal></portal></div>
+    <router-view></router-view>
   </div>
 </template>
 
@@ -8,6 +8,11 @@
 import portal from '@/components/portal/portal'
 export default {
   name: 'App',
+  data () {
+    return {
+
+    }
+  },
   components:{
     portal
   }

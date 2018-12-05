@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import App from '@/App'
+import login from '@/views/login/login'
+import portal from '@/components/portal/portal'
 Vue.use(Router)
 
 export const constantRouterMap = [
@@ -12,16 +14,14 @@ export const constantRouterMap = [
 export default new Router({
   routes: [
   			{
-  		     path: '/portal',
-			  component: () => import('@/components/portal/portal')
+  		     path: '/',
+  		     name:'portal',
+			  component:portal
 			},
 			{
 				path:'/login',
-				component:()=>import('@/views/login/login')
-			},
-			{
-				path:'/',
-				component: App
+				name:'login',
+				component:login
 			}
     ]
 })

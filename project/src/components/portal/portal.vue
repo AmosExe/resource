@@ -7,6 +7,7 @@
       <left></left>
     </div>
     <div class="contextBody" >
+      <router-link to="/login">tiaoz</router-link>
       <right></right>
     </div>
     </div>

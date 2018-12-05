@@ -7,6 +7,7 @@ import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import vue from 'vue';
 import './assets/index.css'
+router.push('portal')
 import {
   Pagination,
   Dialog,
